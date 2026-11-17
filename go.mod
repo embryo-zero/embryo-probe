@@ -11,13 +11,15 @@ require (
 	github.com/miekg/dns v1.1.73
 	github.com/prometheus/client_golang v1.25.0
 	github.com/prometheus/client_model v0.6.3
-	github.com/prometheus/common v0.72.1
+	github.com/prometheus/common v0.73.1
 	github.com/prometheus/exporter-toolkit v0.20.0
 	go.yaml.in/yaml/v2 v2.4.4
 	go.yaml.in/yaml/v3 v3.0.6
 	golang.org/x/net v0.61.0
 	google.golang.org/grpc v1.84.0
 )
+
+require github.com/pandatix/go-abnf v0.5.3 // indirect
 
 require (
 	cel.dev/expr v0.25.2 // indirect
